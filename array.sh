@@ -7,4 +7,4 @@ dir4="dir4"
 
 arraydir=("/home/ryan/dir1" "/home/ryan/dir2" "/home/ryan/dir3" "/home/ryan/dir4")
 
-echo "${arraydir[]}" > array.txt
+echo ${arraydir[*]} 
